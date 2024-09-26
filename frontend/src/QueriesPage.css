@@ -1,0 +1,54 @@
+.queries-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.queries-list {
+    margin-top: 20px;
+}
+
+.query-box {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.query-box h4 {
+    margin: 0;
+}
+
+.query-box p {
+    margin: 5px 0;
+}
+
+.reply-box {
+    margin-top: 10px;
+}
+
+.reply-box textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.reply-box button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reply-box button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,208 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-container {
+  text-align: center;
+  color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #000000, #ffffff);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Container for nav-links and logout button */
+.nav-auth-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-right: 20px; /* Space between nav-links and logout button */
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Logout Button */
+.logout-btn {
+  padding: 10px 20px;
+  background-color: #ff4b5c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #e03e49;
+  transform: scale(1.05);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://wallpapercave.com/wp/wp5901457.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 100px 20px;
+  margin-top: 60px; /* To offset the fixed navbar */
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: auto;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* Services Section */
+.services {
+  background-color: #000000;
+  padding: 50px 20px;
+}
+
+.services h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Facilities Section */
+.facilities {
+  background-color: #000000;
+  padding: 50px 20px;
+}
+
+.facilities h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.facilities-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.facility {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 200px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.facility h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* About Us Section */
+.about {
+  padding: 50px 20px;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Instagram Logo */
+.instagram-logo-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.instagram-logo {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s;
+}
+
+.instagram-logo:hover {
+  transform: scale(1.1);
+}
+
+/* Footer Section */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.footer-content {
+  max-width: 600px;
+  margin: auto;
+}
+
+.footer p {
+  margin: 5px 0;
+}

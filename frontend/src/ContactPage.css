@@ -1,0 +1,96 @@
+/* Container for the entire contact section */
+.contact {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  margin: 40px auto;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  max-width: 450px; /* Adjust the max width for better fitting */
+}
+
+/* Styling for the heading */
+.contact h2 {
+  font-size: 2.2em;
+  color: #333;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Styling for the paragraph text */
+.contact p {
+  font-size: 1.1em;
+  color: #666;
+  margin-bottom: 25px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5; /* Better readability */
+}
+
+/* Form container styling */
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+/* Label styling */
+.contactForm label {
+  width: 100%;
+  font-size: 1em;
+  color: #333;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  text-align: left; /* Align text to the left for labels */
+}
+
+/* Input and textarea styling */
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus styling for inputs */
+.contactForm input:focus,
+.contactForm textarea:focus {
+  border-color: #7b00ff;
+  outline: none;
+}
+
+/* Textarea specific styling */
+.contactForm textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+/* Button styling */
+.contactForm button {
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #0015ff, #a9cff8);
+  color: #fff;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for button */
+.contactForm button:hover {
+  background-color: #21a1f1;
+  transform: scale(1.05);
+}
+
+/* Active effect for button */
+.contactForm button:active {
+  transform: scale(0.95);
+}

@@ -1,0 +1,137 @@
+/* Main container styling for the members list */
+.members-container {
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+/* Title styling */
+.members-container h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #333;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+/* Table styling */
+.members-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Header row styling */
+.members-table th {
+    padding: 15px 10px;
+    background-color: #004a99;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Table data cells styling */
+.members-table td {
+    padding: 14px 10px;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+    text-align: left;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+/* Alternating row colors for better readability */
+.members-table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.members-table tr:hover {
+    background-color: #e1f5fe;
+}
+/* Save and Cancel button styles */
+.btn-save, .btn-cancel {
+    padding: 8px 15px;
+    font-size: 13px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 2px;
+}
+
+.btn-save {
+    background-color: #007bff; /* Blue for save */
+}
+
+.btn-save:hover {
+    background-color: #0056b3;
+}
+
+.btn-cancel {
+    background-color: #6c757d; /* Grey for cancel */
+}
+
+.btn-cancel:hover {
+    background-color: #5a6268;
+}
+
+/* Button styling for Edit and Delete actions */
+.btn-edit, .btn-delete {
+    padding: 8px 15px;
+    font-size: 13px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 2px;
+}
+
+.btn-edit {
+    background-color: #28a745; /* Green for edit */
+}
+
+.btn-edit:hover {
+    background-color: #218838;
+}
+
+.btn-delete {
+    background-color: #dc3545; /* Red for delete */
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    .members-container {
+        padding: 20px;
+    }
+
+    .members-table th, .members-table td {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .btn-edit, .btn-delete {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    .members-table {
+        font-size: 13px;
+    }
+}

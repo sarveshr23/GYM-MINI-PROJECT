@@ -1,0 +1,36 @@
+/* BMICalculator.css */
+
+.bmi-calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(249, 249, 249, 0.2); /* Add transparency with alpha value */
+    
+    text-align: center;
+  }
+  
+  .bmi-calculator input, .bmi-calculator select {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .bmi-calculator button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .bmi-calculator button:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,74 @@
+/* Classes.css */
+
+/* Ensure the page is full-width */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container for the classes page */
+.classes {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styling */
+.header {
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Main content styling */
+.main-content {
+  padding: 20px 0;
+}
+
+/* Container for the list of classes */
+.classes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Individual class item styling */
+.class-item {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.class-item h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  color: #007BFF;
+}
+
+.class-item p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+}
